@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2037aa96dc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/simple-lightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Food | landing page</title>
+</head>
+<body>
+    
+    <!-- --------------------Navbar------------------ -->
+
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">K-Food</h1>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#about">Recipe</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+                    <!-- Showcase -->
+<section class="sec-a">
+    <div class="container">
+        <div>
+        <h1>Welcome to Keyur Food</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio minima aliquam quisquam officia, iure ipsam.
+             Est molestiae quae nobis eaque fugit aut atque maiores, reiciendis voluptatibus ex beatae vel fugiat.
+        </p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+    <div>
+        <img src="img/burger.png" alt="img" class="i-bur">
+    </div>
+</div>
+</section>
+
+
+<!-- Overlay Text -->
+<section class="sec-b">
+    <div class="overlay">
+        <div class="sec-b-inner">
+            <h2>Breakfast</h2>
+            <h3>eat any time any where</h3>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas recusandae, 
+                animi odit numquam, id totam nesciunt veritatis asperiores non nihil cum sequi corrupti! Eligendi nobis nulla delectus animi. Dignissimos, ipsa?
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery -->
+<section class="sec-c">
+    <div class="gallery">
+        <a href="img/pizza.png" class="big">
+            <img src="img/pizza.png" alt="">
+        </a>
+        <a href="img/dish.png" class="big">
+            <img src="img/dish.png" alt="">
+        </a>
+        <a href="img/dish2.png" class="big">
+            <img src="img/dish2.png" alt="">
+        </a>
+        <a href="img/dish3.png" class="big">
+            <img src="img/dish3.png" alt="">
+        </a>
+        <a href="img/drink.png" class="big">
+            <img src="img/drink.png" alt="">
+        </a>
+        <a href="img/popcorn.png" class="big">
+            <img src="img/popcorn.png" alt="">
+        </a>
+    </div>
+</section>
+
+
+<!-- Footer -->
+
+<footer class="sec-foot">
+    <div class="container">
+        <div>
+            <h2>Keyur Malete</h2>
+            <a href="http://twitter.com">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="http://instagram.com">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="http://Youtube.com">
+                <i class="fab fa-youtube fa-2x"></i>
+            </a>
+        </div>
+        <div>
+            <h3>Company Info</h3>
+            <ul>
+                <li><a href="#"> All Products</a></li>
+                <li><a href="#"> About Us</a></li>
+                <li><a href="#"> Privacy Policy</a></li>
+                <li><a href="#"> Terms of Service</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Blog Posts</h3>
+            <ul>
+                <li><a href="#"> Non-Veg</a></li>
+                <li><a href="#"> Veg</a></li>
+                <li><a href="#"> Drink</a></li>
+                <li><a href="#"> snaks</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Subscribe For daily Posts</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <form action="" name="email-form" method="post" data-netlify="true">
+                <div class="email-form">
+                    <span class="form-control-wrap">
+                        <input 
+                        type="email" 
+                        class="form-control"
+                        name="email" 
+                        size="40" 
+                        id="email" />
+                    </span>
+                    <button type="submit" class="form-control submit">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</footer>
+
+
+
+                                <!-- Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+        $(function() {
+            const $gallery = $('.gallery a').simpleLightbox();
+        });
+    </script>
+</body>
+</html>
